@@ -1,4 +1,4 @@
-# CAD-PU: A Curvature-Adaptive Deep LearningSolution for Point Set Upsampling
+# CAD-PU: A Curvature-Adaptive Deep Learning Solution for Point Set Upsampling
 Created by Jiehong Lin, Xian Shi, Yuan Gao, Ke Chen, Kui Jia.
 
 ### Introduciton 
