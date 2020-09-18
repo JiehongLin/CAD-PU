@@ -6,7 +6,7 @@ This repository is for our paper '[CAD-PU: A Curvature-Adaptive Deep LearningSol
 
 ### Installation
 
-**Install Tensorflow.** This code is tested with [Tensorflow 1.11.0](https://www.tensorflow.org) GPU version and [Python 3.6.5](https://www.python.org/downloads/release/python-365/) on Ubuntu 16.04. There are also some dependencies for a few Python libraries for data processing and visualizations like cv2, h5py etc.
+**Install Tensorflow.** This code is tested with [Tensorflow 1.11.0](https://www.tensorflow.org) GPU version and [Python 3.6.5](https://www.python.org/downloads/release/python-365/) on Ubuntu 16.04. There are also some dependencies for a few Python libraries for data processing like cv2, h5py etc.
 
 **Compile Customized TF Operators.** The TF operators are included in ```tf_ops``` folder. You need to run ```./tf_*_compile.sh``` under each ops subfolder to compile them. Note that you may update ```nvcc``` and ```python``` path if necessary.
 
