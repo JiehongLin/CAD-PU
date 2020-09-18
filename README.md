@@ -15,10 +15,10 @@ Our work is motivated to improve surface approximation via point set upsamping. 
 
 ### Usage
 
-1、 Download training and test mesh files from [GoogleDrive](https://drive.google.com/open?id=1BNqjidBVWP0_MUdMTeGy1wZiR6fqyGmC). Unzip and organize these files in ```data``` folder as follows:
+1、 Download training and test mesh files from [GoogleDrive](https://drive.google.com/open?id=1BNqjidBVWP0_MUdMTeGy1wZiR6fqyGmC). Unzip and organize these files in ```data/CAD_models``` folder as follows:
 ```
 data
-├── CAD_model
+├── CAD_models
 │   ├── complex
 │   ├── medium
 │   ├── simple
