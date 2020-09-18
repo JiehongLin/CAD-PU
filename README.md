@@ -2,7 +2,10 @@
 Created by Jiehong Lin, Xian Shi, Yuan Gao, Ke Chen, Kui Jia.
 
 ### Introduciton 
-This repository is for our paper '[CAD-PU: A Curvature-Adaptive Deep LearningSolution for Point Set Upsampling](https://arxiv.org/abs/2009.04660)'.
+This repository is for our paper '[CAD-PU: A Curvature-Adaptive Deep LearningSolution for Point Set Upsampling](https://arxiv.org/abs/2009.04660)'. 
+
+Our work is motivated to improve surface approximation via point set upsamping. To this end, we first analyze the approximation error bounds of the input and output point sets, and _identify point-wise curvatures as an important controlling factor_ that determines the quality of upsampled results. Based on the analysis, we propose a novel network design of CAD-PU and the corresponding learning objective. 
+
 
 ### Installation
 
@@ -36,7 +39,8 @@ python cad_pu.py --phase test
 ```
 
 ### Evaluation
-1、Reconstruct the point sets of testing outputs of in ```log/test_point_cloud_results``` folder to meshes. We use Screened Poisson Reconstruction algorithm in [MeshLab](https://www.meshlab.net/) for reconstruciton.
+1、Reconstruct the point sets of testing outputs in ```log/test_point_cloud_results``` folder to meshes. We use Screened Poisson Reconstruction algorithm in [MeshLab](https://www.meshlab.net/) for reconstruciton.
+
 Save the reconstructed meshes in ```.off``` format and organize them in ```log/test_mesh_results``` folder as follows:
 
 ```
